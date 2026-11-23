@@ -1,4 +1,6 @@
+
 from pydantic import BaseModel, Field
+
 
 # Frontend se aane wala message validate karega.
 class ChatRequest(BaseModel):
